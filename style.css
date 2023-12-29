@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E2D4B7;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(42, 42, 42, 0.8); /* Transparent background */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* Glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 400px;
+    height: auto; /* Adjust card width as needed */
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(68, 68, 68, 0.8); /* Transparent input background */
+    color: #fff;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(224, 218, 128);
+}
+input[type="text"]:hover {
+    background-color: #b9af29;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #372549;
+}
